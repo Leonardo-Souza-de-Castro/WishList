@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Senai_WishList_webAPI</name>
+    </assembly>
+    <members>
+        <member name="M:Senai_WishList_webAPI.Controllers.DesejosController.Listar">
+            <summary>
+            Esse método é responsavel por listar todos os desejos cadastrados
+            </summary>
+            <returns>Uma lista de desejos</returns>
+        </member>
+        <member name="M:Senai_WishList_webAPI.Controllers.DesejosController.ListarMinhas">
+            <summary>
+            Método Responsavel por listar os desejos do Usuario Logado
+            </summary>
+            <returns> Uma lista de desejos</returns>
+        </member>
+        <member name="M:Senai_WishList_webAPI.Controllers.DesejosController.Cadastrar(Senai_WishList_webAPI.Domains.Desejo)">
+            <summary>
+            Método Responsavel pelo cadastro de novos desejos
+            </summary>
+            <param name="DesejoNovo">O novo desejo a ser cadastrado</param>
+        </member>
+        <member name="M:Senai_WishList_webAPI.Controllers.LoginController.Login(Senai_WishList_webAPI.Domains.Usuario)">
+            <summary>
+            Método responsavel por fazer o login dos Usuarios
+            </summary>
+            <param name="usuarioparalogar">Email e Senha do Usuario</param>
+            <returns>O Token para login</returns>
+        </member>
+        <member name="M:Senai_WishList_webAPI.Interfaces.IDesejoRepository.Listar">
+            <summary>
+            Esse método é responsavel por listar todos os desejos cadastrados
+            </summary>
+            <returns>Uma lista de desejos</returns>
+        </member>
+        <member name="M:Senai_WishList_webAPI.Interfaces.IDesejoRepository.Cadastrar(Senai_WishList_webAPI.Domains.Desejo)">
+            <summary>
+            Método Responsavel pelo cadastro de novos desejos
+            </summary>
+            <param name="Desejo_Novo">O novo desejo a ser cadastrado</param>
+        </member>
+        <member name="M:Senai_WishList_webAPI.Interfaces.IDesejoRepository.ListarMinhas(System.Int32)">
+            <summary>
+            Método Responsavel por listar os desejos do Usuario Logado
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Senai_WishList_webAPI.Interfaces.ILoginRepository.Login(System.String,System.String)">
+            <summary>
+            Método responsavel pelo login de Usuarios
+            </summary>
+            <param name="Email">Email para login</param>
+            <param name="Senha">Senha para login</param>
+            <returns>Um Usuario com aquele email e senha</returns>
+        </member>
+    </members>
+</doc>
