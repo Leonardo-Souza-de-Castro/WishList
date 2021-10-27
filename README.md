@@ -71,3 +71,43 @@ __Primeira:__ Você pode abrir o local do arquivo (__DiretorioOndeORepositorioFo
 __Segunda:__ Você pode abrir o local do arquivo (__DiretorioOndeORepositorioFoiClonado\WishList\Front End\WishList__) no Visual Studio Code e abrir o prompt de comando (ctrl + ') e digitar o comando npm start.
 
 O projeto sera aberto em uma nova aba com a rota sendo locallhost:3000 e seus variantes.
+
+# Membros do Grupo e Professores:
+### Professores:
+
+<table>
+<tr>
+  <th>Nome</th>
+  <th>Username</th>
+</tr>
+<tr>
+  <td>Saulo</td>
+  <td>Saulomsantos</td>
+</tr>
+<tr>
+  <td>Lucas</td>
+  <td>Lucas Aragão Feliciano</td>
+</tr>
+</table>
+
+
+### Alunos:
+
+<table>
+<tr>
+  <th>Nome</th>
+  <th>Username</th>
+</tr>
+<tr>
+  <td>Henrique</td>
+  <td>hinriqui</td>
+</tr>
+<tr>
+  <td>Leonardo Souza</td>
+  <td>Leonardo-Souza-de-Castro</td>
+</tr>
+<tr>
+  <td>Matheus Pereira</td>
+  <td>Matheus-Pereiraa</td>
+</tr>
+</table>
