@@ -35,7 +35,7 @@
             </summary>
             <returns>Uma lista de desejos</returns>
         </member>
-        <member name="M:Senai_WishList_webAPI.Interfaces.IDesejoRepository.Cadastrar(Senai_WishList_webAPI.Domains.Desejo)">
+        <member name="M:Senai_WishList_webAPI.Interfaces.IDesejoRepository.Cadastrar(Senai_WishList_webAPI.Domains.Desejo,System.Int32)">
             <summary>
             Método Responsavel pelo cadastro de novos desejos
             </summary>

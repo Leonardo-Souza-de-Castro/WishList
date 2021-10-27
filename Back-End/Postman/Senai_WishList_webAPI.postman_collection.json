@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "e27c3972-7de0-4394-855f-f19ef2eb33f7",
+		"name": "Senai_WishList_webAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Email\": \"adm@adm.com\",\r\n    \"Senha\": \"adm123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Desejos",
+			"item": [
+				{
+					"name": "Desejos.Listar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbUBhZG0uY29tIiwianRpIjoiMSIsImV4cCI6MTYzNTM0MzI1MSwiaXNzIjoiV2lzaExpc3Rfd2ViQXBpIiwiYXVkIjoiV2lzaExpc3Rfd2ViQXBpIn0.g5mAUkqTip9AngvwiREHZnDH93eqIz6s2C6wAm_iSTs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Desejos/Listar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Desejos",
+								"Listar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Desejos.ListarMinhas",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbUBhZG0uY29tIiwianRpIjoiMSIsImV4cCI6MTYzNTM0MzI1MSwiaXNzIjoiV2lzaExpc3Rfd2ViQXBpIiwiYXVkIjoiV2lzaExpc3Rfd2ViQXBpIn0.g5mAUkqTip9AngvwiREHZnDH93eqIz6s2C6wAm_iSTs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Desejos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Desejos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Desejos.Cadastrar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbUBhZG0uY29tIiwianRpIjoiMSIsImV4cCI6MTYzNTM0NDc4NSwiaXNzIjoiV2lzaExpc3Rfd2ViQXBpIiwiYXVkIjoiV2lzaExpc3Rfd2ViQXBpIn0.gJ6mPMMiQmMQk_EQ3SF6z7gjyh6IkRFlK9LGiGORlHU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"DescricaoDesejo\": \"Queria um joia do Lucas\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Desejos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Desejos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

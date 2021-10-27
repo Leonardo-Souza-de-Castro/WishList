@@ -18,7 +18,7 @@ namespace Senai_WishList_webAPI.Interfaces
         /// Método Responsavel pelo cadastro de novos desejos
         /// </summary>
         /// <param name="Desejo_Novo">O novo desejo a ser cadastrado</param>
-        void Cadastrar(Desejo Desejo_Novo);
+        void Cadastrar(Desejo Desejo_Novo, int id);
         
         /// <summary>
         /// Método Responsavel por listar os desejos do Usuario Logado

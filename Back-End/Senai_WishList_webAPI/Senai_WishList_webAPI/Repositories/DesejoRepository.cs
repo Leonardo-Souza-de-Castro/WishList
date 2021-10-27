@@ -12,8 +12,9 @@ namespace Senai_WishList_webAPI.Repositories
     public class DesejoRepository : IDesejoRepository
     {
         WishListContext ctx = new WishListContext();
-        public void Cadastrar(Desejo Desejo_Novo)
+        public void Cadastrar(Desejo Desejo_Novo, int id)
         {
+            Desejo_Novo.IdUsuario = id;
             ctx.Desejos.Add(Desejo_Novo);
 
             ctx.SaveChanges();

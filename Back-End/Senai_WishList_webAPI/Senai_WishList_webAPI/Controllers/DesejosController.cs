@@ -15,7 +15,6 @@ namespace Senai_WishList_webAPI.Controllers
     [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class DesejosController : ControllerBase
     {
         private IDesejoRepository _desejoRepository { get; set; }
@@ -29,7 +28,7 @@ namespace Senai_WishList_webAPI.Controllers
         /// Esse método é responsavel por listar todos os desejos cadastrados
         /// </summary>
         /// <returns>Uma lista de desejos</returns>
-        [HttpGet]
+        [HttpGet("Listar")]
         public IActionResult Listar()
         {
             try
@@ -47,6 +46,7 @@ namespace Senai_WishList_webAPI.Controllers
         /// Método Responsavel por listar os desejos do Usuario Logado
         /// </summary>
         /// <returns> Uma lista de desejos</returns>
+        [Authorize]
         [HttpGet]
         public IActionResult ListarMinhas()
         {
@@ -60,7 +60,7 @@ namespace Senai_WishList_webAPI.Controllers
 
                 return BadRequest(new
                 {
-                    mensagem = "É necessario estar logado para ver as suas consultas"
+                    mensagem = "É necessario estar logado para ver as suas consultas", ex
                 });
             }
         }
@@ -74,7 +74,8 @@ namespace Senai_WishList_webAPI.Controllers
         {
             try
             {
-                _desejoRepository.Cadastrar(DesejoNovo);
+                int id = Convert.ToInt32(HttpContext.User.Claims.First(c => c.Type == JwtRegisteredClaimNames.Jti).Value);
+                _desejoRepository.Cadastrar(DesejoNovo, id);
 
                 return StatusCode(201);
             }
