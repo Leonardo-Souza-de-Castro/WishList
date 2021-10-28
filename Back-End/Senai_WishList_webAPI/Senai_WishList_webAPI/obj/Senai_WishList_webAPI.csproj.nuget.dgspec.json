@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\47073656808\\Desktop\\WishList\\Back-End\\Senai_WishList_webAPI\\Senai_WishList_webAPI\\Senai_WishList_webAPI.csproj": {}
+    "C:\\Users\\Henrique\\Desktop\\WishList\\Back-End\\Senai_WishList_webAPI\\Senai_WishList_webAPI\\Senai_WishList_webAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\47073656808\\Desktop\\WishList\\Back-End\\Senai_WishList_webAPI\\Senai_WishList_webAPI\\Senai_WishList_webAPI.csproj": {
+    "C:\\Users\\Henrique\\Desktop\\WishList\\Back-End\\Senai_WishList_webAPI\\Senai_WishList_webAPI\\Senai_WishList_webAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\47073656808\\Desktop\\WishList\\Back-End\\Senai_WishList_webAPI\\Senai_WishList_webAPI\\Senai_WishList_webAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\WishList\\Back-End\\Senai_WishList_webAPI\\Senai_WishList_webAPI\\Senai_WishList_webAPI.csproj",
         "projectName": "Senai_WishList_webAPI",
-        "projectPath": "C:\\Users\\47073656808\\Desktop\\WishList\\Back-End\\Senai_WishList_webAPI\\Senai_WishList_webAPI\\Senai_WishList_webAPI.csproj",
-        "packagesPath": "C:\\Users\\47073656808\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\47073656808\\Desktop\\WishList\\Back-End\\Senai_WishList_webAPI\\Senai_WishList_webAPI\\obj\\",
+        "projectPath": "C:\\Users\\Henrique\\Desktop\\WishList\\Back-End\\Senai_WishList_webAPI\\Senai_WishList_webAPI\\Senai_WishList_webAPI.csproj",
+        "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Henrique\\Desktop\\WishList\\Back-End\\Senai_WishList_webAPI\\Senai_WishList_webAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\47073656808\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

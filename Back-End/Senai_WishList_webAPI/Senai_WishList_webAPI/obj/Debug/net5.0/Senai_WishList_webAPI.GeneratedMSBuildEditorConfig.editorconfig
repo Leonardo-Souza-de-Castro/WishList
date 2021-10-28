@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = Senai_WishList_webAPI
+build_property.ProjectDir = C:\Users\Henrique\Desktop\WishList\Back-End\Senai_WishList_webAPI\Senai_WishList_webAPI\

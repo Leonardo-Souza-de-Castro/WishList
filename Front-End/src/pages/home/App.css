@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #C3EBFA;
+  border: 1px solid #000;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header p, a.link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  margin: 15px 30px;
+  text-transform: uppercase;
+}
+
+.container {
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.corpo {
+  height: 400px;
+  padding-top: 120px;
+  background-image: url(./61802\ 1.png);
+  display: flex;
+  justify-content: space-between;
+}
+
+.wishlist {
+  height: 300px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form h1 {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+
+form input {
+  background-color: transparent;
+  border-radius: 5px;
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+.button {
+  width: 100px;
+}
+
+footer {
+  height: 150px;
+  background-color: #C3EBFA;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+}
+
+footer span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+footer div a {
+  font-size: 14px;
+}

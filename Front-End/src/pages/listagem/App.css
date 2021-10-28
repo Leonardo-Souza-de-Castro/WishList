@@ -1,0 +1,65 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+form.cadastroDesejo {
+    width: 650px;
+    margin-top: 100px;
+    margin: 70px auto 20px auto;
+    background: #E8F8FF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+form div {
+    display: flex;
+}
+
+form div label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+form div textarea {
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+}
+
+.botao {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 0 250px;
+    margin-bottom: 40px;
+}
+
+section div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section div div {
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.wish {
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+    width: 300px;
+    height: auto;
+}
